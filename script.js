@@ -1,6 +1,28 @@
+let interval = setInterval(function() {
+    let presentMoment = moment();
+    $('#currentDay').html(presentMoment.format('YYYY MMMM DD') + ' '
+                        + presentMoment.format('dddd')
+                         .substring(0,3).toUpperCase());
+    $('#currentDay').html(currentDate + " " + presentMoment.format('hh:mm:ss A'));
+  }, 100);
 
+let currentDate = moment().format('dddd') + " " + moment().format("Do MMM YYYY");
+let currentHour = moment().format('h:mm:ss a');
+  
 
+let nine = $("hour-9");
+let ten = $("hour-10");
+let eleven = $("hour-11");
+let twelve = $("hour-12");
+let thirteen = $("hour-13");
+let fourteen = $("hour-14");
+let fiveteen = $("hour-15");
+let sixteen = $("hour-17");
+let seventeen = $("hour-17");
 
+function initPage() 
+
+function status () 
 
 
 
