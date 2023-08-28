@@ -15,7 +15,11 @@ body {
 
   header {
     text-align: center;
-    border-bottom: solid black 5px;
+    border-bottom: solid #4169e1 10px;
+  }
+
+  .display-3 {
+    color: #4169e1;
   }
   
   .description {
