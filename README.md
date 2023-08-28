@@ -7,7 +7,7 @@ The Work Day Planner is a web application that allows any user to have an organi
 ## Table of Contents:
 - [Overview](#Overview)
 - [The Challenge](#The-Challenge)
-- [Usage Information](#Usage-Information)
+- [Usage Information](#Usage-Instructions)
 - [License](#License)
 
 # Overview
