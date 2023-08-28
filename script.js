@@ -1,5 +1,6 @@
 let timeDisplayEl = $('#time-display');
 let timeSet = document.getElementById("timeSet");
+let clearButton = document.getElementById("clearDay") 
 
 function displayTime() {
     let rightNow = dayjs().format('MMM DD, YYYY [at] hh:mm:ss a');
@@ -37,15 +38,15 @@ function background() {
 
 function textEntry() {
     $('.saveBtn').on('click', function() {
-      const key = $(this).parent().attr('id');
-      const value = $(this).siblings('.description').val();
+      let key = $(this).parent().attr('id');
+      let value = $(this).siblings('.description').val();
       localStorage.setItem(key, value);
     });
 }
 
 function updateBackground() {
     $('.time-block').each(function() {
-      const blockHour = parseInt(this.id);
+      let blockHour = parseInt(this.id);
       if (blockHour == currentHour) {
         $(this).removeClass('past future').addClass('present');
       } else if (blockHour < currentHour) {
@@ -55,8 +56,6 @@ function updateBackground() {
       }
     });
 }
-
-
 
 background();
 textEntry();

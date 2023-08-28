@@ -18,6 +18,9 @@ body {
     border-bottom: solid #4169e1 10px;
   }
 
+  #clearDay {
+    display: none;
+  }
   .display-3 {
     color: #4169e1;
   }
