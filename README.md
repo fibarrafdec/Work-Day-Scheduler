@@ -8,6 +8,7 @@ The Work Day Planner is a web application that allows any user to have an organi
 - [Overview](#Overview)
 - [The Challenge](#The-Challenge)
 - [Usage Instructions](#Usage-Instructions)
+- [Credits](#Credits)
 - [License](#License)
 
 # Overview
@@ -60,6 +61,10 @@ The following animation demonstrates the application functionality:
 ## Screenshots:
 ### Figure 1. Screenshot
 ![](./Images/Captura%20de%20Pantalla%202023-08-28%20a%20la(s)%2020.45.13.png) 
+
+## Credits
+
+The code on the HTML, CSS, and JS has been created by myself using the material given to us in this Boot Camp.
 
 ## License & Copyright ©
   
